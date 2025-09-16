@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box;  */
+    box-sizing: border-box; 
 }
 
 body {
@@ -34,13 +34,14 @@ body {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
     font-size: 8vmin;
     color: #5E6973;
+    background-color: #ffffc7;
 }
 
 #reset-btn {
     padding: 1rem;
     font-size: 1.25rem;
     background-color: #191913;
-    color: white;
+    color: #ffff;
     border: none;
     border-radius: 1rem;
 }
