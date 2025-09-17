@@ -9,6 +9,10 @@ body {
     text-align: center;
 }
 
+.heading {
+    
+}
+
 .container {
     height: 70vh;
     display: flex;
@@ -44,4 +48,26 @@ body {
     color: #ffff;
     border: none;
     border-radius: 1rem;
+}
+
+.msg-container {
+    height: 20vmin;
+}
+
+.msg {
+    color: #F9F8F8;
+    font-size: 5vmin;
+}
+
+.new-btn {
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #191913;
+    color: #ffff;
+    border: none;
+    border-radius: 1rem;
+}
+
+.hide {
+    display: none;
 }
