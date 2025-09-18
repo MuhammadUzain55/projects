@@ -51,12 +51,17 @@ body {
 }
 
 .msg-container {
-    height: 20vmin;
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
 }
 
 .msg {
     color: #F9F8F8;
-    font-size: 5vmin;
+    font-size: 10vmin;
 }
 
 .new-btn {
