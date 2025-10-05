@@ -3,6 +3,7 @@ let resetBtn = document.querySelector("#reset-btn");
 let newGameBtn = document.querySelector(".new-btn");
 let msgContainer = document.querySelector(".msg-container");
 let msg = document.querySelector(".msg");
+let msg1 = document.querySelector(".msg1");
 
 let turnO = true;
 
@@ -36,11 +37,18 @@ const enableBoxes = () => {
     }
 };
 
+// const showDrawer = () => {
+//     let count = 0;
+//     for (let box of boxes) {
+//         box.addEventListener("click", count++);
+// }
+
 const showWinner = (winner) => {
     msg.innerHTML = `Congratulations, Winner is ${winner}`;
     msgContainer.classList.remove("hide");
     disableBoxes();
 };
+
 
 boxes.forEach((box) => {
     box.addEventListener("click", () => {
@@ -62,7 +70,7 @@ const checkWinner = () => {
         let patternval1 = boxes[pattern[0]].innerText;
         let patternval2 = boxes[pattern[1]].innerText;
         let patternval3 = boxes[pattern[2]].innerText;
-
+        let count = 0;
         if (patternval1 != "" && patternval2 != "" && patternval3 != "") {
             if (patternval1 === patternval2 && patternval2 === patternval3) {
                 console.log("Winner", patternval2);
