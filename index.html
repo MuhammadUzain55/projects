@@ -21,11 +21,11 @@
             </div>
             <div class="right">
                 <ul>
-                    <li>Home</li>
-                    <li>About Me</li>
-                    <li>Services</li>
-                    <li>Projects</li>
-                    <li>Contact Me</li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About Me</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -34,15 +34,24 @@
     <main>
         <section class="first-section">
             <div class="left-section">
-                Hi, I am Uzain
-                <div>and I am a Web Developer</div>
+                Hi, My Name is <span class="purple">Uzain</span> 
+                <div>and I am a Passionate</div>
+                <div>Web Developer</div>
+                <span id="element"></span>
             </div>
             <div class="right-section">
                 <img src="my_Image.jpg" alt="This is Image">
             </div>
         </section>
     </main>
-
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+      typeSpeed: 50,
+    });
+  </script>
 
 
     <!-- <h1>Welcome To My Projects Website</h1>
