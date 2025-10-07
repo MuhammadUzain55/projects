@@ -47,7 +47,7 @@ nav ul li a:hover{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 50px 0;
+    margin: 65px 0;
 }
 
 .first-section>div {
@@ -72,3 +72,67 @@ nav ul li a:hover{
      color: rgb(170, 107, 228);
 }
 
+/******************* Second Section *************/
+
+.second-section {
+    width: 80%;
+    margin: auto;   
+}
+
+.second-section h2 {
+    font-size: 1.5rem;
+}
+
+main hr {
+    border: 0;
+    background-color: #9c97f1;
+    height: 1.2px;
+    margin: 30px 68px;
+}
+
+.text-gray {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.horizontal-line {
+    width: 80vw;
+    height: 0.2vw;
+    background-color: white;
+    margin: 1.7rem 0;
+    display: flex;
+}
+
+.verticle-line {
+    width: 0.1vw;
+    height: 8vh;
+    background-color: white;
+    margin: 0 125px;
+}
+
+.top-image {
+    position: relative;
+    width: 20px;
+    top: -26px;
+    left: -8px;
+    border-radius: 50%;
+}
+
+.html-title {
+    position: relative;
+    top: 23px;
+    left: -70px;
+    width: 145px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.html-desc {
+    font-size: 0.7rem;
+    width: 230px;
+    position: relative;
+    top: 23px;
+    left: -112px;
+    color: gray;
+    text-align: center;
+}
