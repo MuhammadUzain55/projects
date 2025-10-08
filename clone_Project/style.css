@@ -10,21 +10,51 @@ body {
     font-family: "Poppins", sans-serif;
 }
 
+header {
+    /* background-color: #656565; */
+}
+
 nav {
+    height: 80px;
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
+    justify-content: space-between;
+    align-items: center;
+    background-color: #656565;
+}
+
+.logo,.navigations{
+    margin: 20px 25px;
+}
+
+.logo {
+    display: flex;
+    gap: 8px;
 }
 
 .logo img {
     height: 50px;
+    border-radius: 50%;
+}
+
+.logo .logo-cont {
+    width: 130px;
 }
 
 .navigations ul {
     display: flex;
-
+    gap: 25px;
 }
 
+.navigations ul li {
+    color: white;
+    list-style: none;
+}
+
+.navigations ul li a {
+    text-decoration: none;
+    color: white;
+}
 .navigations img {
     height: 20px;
+    border-radius: 50%;
 }
