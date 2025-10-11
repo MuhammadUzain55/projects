@@ -3,6 +3,7 @@
     --green: #009660;
     --white: #e9e9e9;
     --black: #0c0c0c;
+    --Lgray: #929292;
 }
 
 
@@ -113,4 +114,13 @@ nav {
         display: flex;
         margin: 0 0px;
     }
+}
+
+/************ First Section **********/
+
+main {
+    padding: 100px 0;
+
+}
+.first-section {
 }
