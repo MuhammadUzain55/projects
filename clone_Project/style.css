@@ -28,7 +28,6 @@ nav {
     /* background-color: #656565; */
 }
 
-
 .logo,.navigations{
     margin: 20px 25px;
 }
@@ -120,7 +119,39 @@ nav {
 
 main {
     padding: 100px 0;
-
 }
 .first-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-section .left {
+    width: 45%;
+}
+
+.first-section .right {
+    width: 45%;
+}
+
+.first-section .left .content {
+    font-size: 1.8rem;
+    width: 85%;
+}
+
+.first-section .left .courses-button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px 3px;
+    width: 35vw;
+}
+.first-section .left .courses-button button {
+    width: auto;
+    white-space: nowrap;
+    padding: 6px 10px;
+    background-color: var(--gray);
+    color: var(--white);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
 }
