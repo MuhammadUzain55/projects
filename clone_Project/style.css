@@ -144,6 +144,7 @@ main {
     flex-wrap: wrap;
     gap: 3px 3px;
     width: 35vw;
+    margin: 15px 0;
 }
 .first-section .left .courses-button button {
     width: auto;
@@ -155,3 +156,65 @@ main {
     border-radius: 3px;
     cursor: pointer;
 }
+
+.first-section .left .priceButton .real-price {
+    font-size: 1.4rem;
+    color: var(--green);
+}
+
+.first-section .left .priceButton .cut-price {
+    font-size: 1.1rem;
+    color: var(--Lgray);
+}
+
+.first-section .left .priceButton .gst-text {
+    font-size: 1rem;
+}
+
+.first-section .left .priceButton .card-text {
+    font-size: 0.7rem;
+    color: var(--green);
+    padding-top: 0;
+    margin-top: 0;
+    position: relative;
+    top: -10px;
+}
+
+/* .first-section .left .priceButton .buttons button {
+    width: 200px;
+    padding: 20px;
+    white-space: nowrap;
+    border-radius: 5px;
+    margin-top: 20px; */
+/* } */
+
+.first-section .left .priceButton .buttons .button1 {
+    width: 200px;
+    padding: 20px;
+    white-space: nowrap;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: var(--green);
+    color: var(--white);
+    border: none;
+    margin-right: 12px;
+}
+
+.first-section .left .priceButton .buttons .button2 {
+    width: 200px;
+    padding: 20px;
+    white-space: nowrap;
+    border-radius: 3px;
+    margin-top: 20px;
+    background-color: var(--gray);
+    color: var(--white);
+    border: none;
+}
+
+.first-section .left .priceButton .note {
+    font-size: 0.7rem;
+    color: var(--green);
+    padding-top: 10px;
+    margin-top: 0;
+}
+
