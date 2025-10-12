@@ -40,11 +40,12 @@ nav {
 .logo img {
     height: 50px;
     border-radius: 50%;
+    align-self: center;
 }
 
-/* .logo .logo-cont {
+.logo .logo-cont {
     width: 130px;
-} */
+}
 
 .navigations ul {
     display: flex;
@@ -119,6 +120,7 @@ nav {
 
 main {
     padding: 100px 0;
+    /* margin: 20px 25px; */
 }
 .first-section {
     display: flex;
@@ -127,10 +129,6 @@ main {
 }
 
 .first-section .left {
-    width: 45%;
-}
-
-.first-section .right {
     width: 45%;
 }
 
@@ -165,6 +163,7 @@ main {
 .first-section .left .priceButton .cut-price {
     font-size: 1.1rem;
     color: var(--Lgray);
+    text-decoration: line-through 2px;
 }
 
 .first-section .left .priceButton .gst-text {
@@ -179,14 +178,6 @@ main {
     position: relative;
     top: -10px;
 }
-
-/* .first-section .left .priceButton .buttons button {
-    width: 200px;
-    padding: 20px;
-    white-space: nowrap;
-    border-radius: 5px;
-    margin-top: 20px; */
-/* } */
 
 .first-section .left .priceButton .buttons .button1 {
     width: 200px;
@@ -218,3 +209,11 @@ main {
     margin-top: 0;
 }
 
+.first-section .right {
+    width: 45%;
+}
+
+.first-section .right img {
+    height: 300px;
+    width: 340px;
+}
