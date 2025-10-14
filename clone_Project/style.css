@@ -218,6 +218,11 @@ main {
 
 .first-section .right .button-type {
     background-color: var(--gray);
+    
+}
+
+.first-section .right .button-type h3 {
+    font-size: 0.8rem;
 }
 
 .first-section .right img {
