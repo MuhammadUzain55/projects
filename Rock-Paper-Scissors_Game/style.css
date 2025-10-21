@@ -8,7 +8,63 @@
 h1 {
     background-color: #081b31;
     color: #ffff;
-    height: 4rem;
-    line-height: 4rem;
+    height: 5rem;
+    line-height: 5rem;
 }
 
+.choices {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.choice {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    background-color: #081b31;
+
+}
+
+.choices img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.score-board .score {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.score-board .score p {
+    font-size: 2rem;
+}
+
+.msg-container {
+    margin-top: 4rem;
+}
+
+.msg-container .msg {
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #081b31;
+    color: white;
+    display: inline;
+    border-radius: 1rem;
+}
